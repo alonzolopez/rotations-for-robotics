@@ -1,0 +1,5 @@
+numpy==1.24.2
+plotly==5.13.1
+scipy==1.10.1
+matplotlib
+manim
