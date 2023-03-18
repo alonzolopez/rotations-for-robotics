@@ -28,8 +28,28 @@ Get a different OS.
 Generate plots for Quaternions for Robotics
 ```bash
 # QuatDefinition.png
-manim -pql src/quat_anim.py QuatDefinition
+manim -qh src/quat_anim.py QuatDefinition
+
+# ActiveTransformation
+manim -qh src/quat_anim.py ActiveTransformation
+
+# PassiveTransformation
+manim -qh src/quat_anim.py PassiveTransformation
+
+# QuatConj
+manim -qh src/quat_anim.py QuatConj
+
+# FramesAB
+manim -qh src/quat_anim.py FramesAB
+
+# VecB
+manim -qh src/quat_anim.py VecB
 ```
+
+Note that the following sets of flags may be used instead:
+- `-ql` generate a low quality render (faster)
+- `-pql` generate a low quality render and play it (open it) immediately
+
 
 ## Manim Resources
 - [Example gallery](https://docs.manim.community/en/stable/examples.html)
